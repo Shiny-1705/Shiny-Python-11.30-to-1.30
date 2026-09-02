@@ -1,0 +1,67 @@
+📝 Operators
+🔹 Arithmetic Operators
+Get two numbers and perform addition, subtraction, multiplication, division, modulus, floor division, and exponentiation.
+Get a number and find its last digit.
+Get a 3-digit number and remove its last digit.
+Get the length and breadth of a rectangle and calculate its area and perimeter.
+🔹 Comparison Operators
+Get two numbers and check:
+Which is greater
+Which is smaller
+Whether both are equal
+Get a student's mark and check whether the mark is greater than or equal to 50.
+🔹 Logical Operators
+Get age and check whether the person is eligible to vote AND has a valid ID.
+Get two numbers and check whether at least one number is greater than 100.
+Get username and password and check whether both are correct.
+🔹 Assignment Operators
+Create a variable with value 100 and perform:
++=
+-=
+*=
+/=
+Start with a number and update its value using different assignment operators.
+🔹 Membership Operators
+Create a list of student names and check whether a particular name exists in the list.
+Create a list of fruits and check whether "Apple" and "Mango" are present.
+Check whether a particular character is present in a given string.
+🔹 Identity Operators
+Create two variables referring to the same list and check using is.
+Create two separate lists containing the same values and compare them using == and is.
+🔹 Bitwise Operators
+Take two numbers and perform:
+&
+|
+^
+Find the result of ~ for a given number.
+Take two numbers and compare their bitwise AND and OR results.
+
+If-Else Tasks
+
+Task 1 – Even or Odd
+Get a number from the user and check whether it is Even or Odd.
+
+Task 2 – Positive, Negative or Zero
+Get a number and check whether it is Positive, Negative, or Zero.
+
+Task 3 – Voting Eligibility
+Get the user's age and check whether they are eligible to vote or not.
+
+Task 4 – Biggest of Two Numbers
+Get two numbers and find which number is bigger.
+
+Task 5 – Pass or Fail
+Get a student's mark.
+
+Mark ≥ 50 → Pass
+Mark < 50 → Fail
+
+Task 6 – Divisible by 5
+Get a number and check whether it is divisible by 5 or not.
+
+Task 7 – Last Digit
+Get a number and find its last digit. Check whether the last digit is Even or Odd.
+
+Task 8 – Simple Login
+Ask the user to enter a username and password.
+If both are correct, display "Login Successful", otherwise display "Invalid Login".
