@@ -1,0 +1,50 @@
+## 📝 Selection Conditional Flow
+
+### **1. IF–ELSE Tasks**
+
+Write Python programs to:
+
+1. Check whether a number is **Even or Odd**.
+2. Check whether a person is **Eligible or Not Eligible to Vote**.
+3. Check whether a number is **Positive or Negative**.
+4. Check whether a student has **Passed or Failed** based on a mark.
+5. Check whether a given number is **Divisible by 5 or Not**.
+
+### **2. ELIF Tasks**
+
+Write Python programs to:
+
+1. Display the **grade** based on the student's mark.
+2. Find the **largest of three numbers**.
+3. Create a simple **calculator** using `+`, `-`, `*`, `/`.
+4. Display the **day of the week** based on a number (1–7).
+5. Display the **electricity bill category** based on units consumed.
+
+### **3. NESTED IF–ELSE Tasks**
+
+Write Python programs to:
+
+1. Check **age and driving licence** eligibility.
+2. Check **username and password** for login.
+3. Check **budget and laptop brand** before purchasing.
+4. Check whether a student is **eligible for an exam based on attendance**, and then check the mark.
+5. Check **ATM withdrawal**:
+
+   * Check whether the PIN is correct.
+   * If correct, check whether sufficient balance is available.
+
+### Challenge Task
+
+**Create a Movie Ticket Booking Program**
+
+Get:
+
+* Age
+* Movie type
+* Number of tickets
+
+Use **nested if-else / elif** to:
+
+* Check age eligibility.
+* Select ticket price based on movie type.
+* Calculate the total ticket amount.
