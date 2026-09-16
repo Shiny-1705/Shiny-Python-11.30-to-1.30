@@ -1,0 +1,127 @@
+
+#jumping statement
+#break
+'''for i in range(1,7):
+    if i==4:
+        break
+    print(i)'''
+
+'''numbers=[2,5,7,3,8]
+for i in numbers:
+    if i==3:
+        print("Found")
+        break
+    print(i)'''
+
+#continue-->Skipping of value
+'''for i in range(1,7):
+    if i==4:
+        continue
+    print(i)'''
+
+#skipping even numbers
+'''for i in range(1,7):
+    if i%2==0:
+        continue
+    print(i)'''
+
+#pass-->Do nothing
+'''for i in range(1,7):
+    if i==4:
+        pass
+    print(i)
+
+for i in range(1,5):
+    pass
+'''
+#for-else
+#without brak in for-else
+'''for i in range(6):
+    print(i)
+else:
+    print("Loop completed")
+'''
+#With break
+'''for i in range(6):
+    if i==84:
+        break
+    print(i)
+else:
+    print("Loop completed")'''
+
+'''numbers=[2,5,7,3,8]
+for i in numbers:
+    if i==3:
+        print("Found")
+        break
+    print(i)
+else:
+    print("Not found")'''
+
+#Strings
+'''a="GOWSIK"
+print(a.lower())
+print(a.casefold())
+b="gowsik"
+print(b.upper())
+#capitalize-->1st letter=capital
+#title->all 1st letter capital
+c="Joy is learning python"
+print(c.title())
+print(c.capitalize())
+#startswith
+d="Gopika"
+print(d.startswith('g'))
+print(d.startswith('G'))
+#endswith
+d="Gopika"
+print("endswith:",d.endswith('a'))
+print(d.endswith('G'))
+#strip())
+h="       hello          "
+print(h)
+print(h.strip())#both extra space remove
+print(h.lstrip())#left side
+print(h.rstrip())#right side
+#centre
+g="Hii"
+print(g.center(10))
+print(g.center(10,'*'))
+#split
+a="Joy is learning python"
+print(a.split())
+#checking commands
+#isalnum
+a="123asf"
+b="asdf"
+c="1234"
+print(a.isalnum())#alphabet+num
+print(b.isalnum())
+print(c.isalnum())
+#istitle
+b="Joy Is Learning Python"
+print(b.istitle())
+#encode
+print(b.encode('utf-8'))
+print(b.encode('utf-16'))
+print(b.encode('utf-32'))
+#
+c="Hello"
+print(c.ljust(10,'*'))
+print(c.rjust(10,'*'))
+#expandtab
+a="Hello\tWorl\td"
+print(a.expandtabs())
+#zfill
+c="Hello"
+print(c.zfill(10))
+#swapcase
+c="Hello"
+print(c.swapcase())'''
+#replace
+'''a="Hii Hello"
+print(a.replace('H','g'))
+print(a.find('o'))'''
+#format
+b="Sumithra"
+print(f"{b} is a goood girllll")
