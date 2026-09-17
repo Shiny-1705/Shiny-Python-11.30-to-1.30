@@ -1,0 +1,123 @@
+String Task
+
+1. Upper & Lower
+Input a string and print it in uppercase and lowercase.
+
+
+2. Swapcase
+Input a string and convert uppercase letters to lowercase and lowercase letters to uppercase.
+
+
+3. Capitalize
+Input a sentence and capitalize the first character.
+
+
+4. Startswith
+Input a string and check whether it starts with "Python".
+
+
+5. Endswith
+Input a filename and check whether it ends with ".py".
+
+
+6. Replace
+Input a sentence and replace "Java" with "Python".
+
+
+7. Strip
+Input a string with extra spaces and remove the spaces from both ends.
+
+
+8. Split
+Input a sentence and print each word separately using split().
+
+
+
+Formatting Methods
+
+9. Format
+Take name, age and city as input and display: My name is ___, I am ___ years old and I live in ___.
+
+
+10. Center
+Input a word and print it centered within 20 spaces.
+
+
+11. Ljust
+Input a word and left-align it within 20 spaces.
+
+
+12. Rjust
+Input a word and right-align it within 20 spaces.
+
+
+13. Zfill
+Input a number and add zeros at the beginning to make it 6 digits.
+
+
+
+Checking Methods
+
+14. Isdigit
+Input a string and check whether it contains only digits.
+
+
+15. Isalpha
+Input a string and check whether it contains only alphabets.
+
+
+16. Isascii
+Input a string and check whether all characters are ASCII characters.
+
+
+
+🔥 Combined Tasks
+
+17. Input a username and:
+
+
+
+Remove extra spaces
+
+Capitalize it
+
+Check whether it starts with "A"
+
+
+18. Input a filename and check:
+
+
+
+Whether it is ASCII
+
+Whether it ends with ".py"
+
+Whether it contains only alphabets and digits.
+
+
+19. Input a mobile number and:
+
+Check whether it contains only digits
+
+Add zeros using zfill() to make it 15 characters.
+
+
+20. Input a sentence and:
+
+Convert it to uppercase
+
+Replace spaces with -
+
+Split it into words
+
+Print each word separately.
+
+
+For-else Task
+
+1. Print numbers 1 to 5 using for-else.
+2. Print even numbers from 1 to 10 using for-else.
+3. Print each character in "Python" using for-else.
+4. Search for 5 in [1, 2, 3, 4, 5].
+5. Search for 10 in [2, 4, 6, 8].
+6. Search for the letter a in "apple".
