@@ -1,0 +1,51 @@
+Set
+
+Create a set of 5 numbers and print it.
+Add 60 to a set.
+Remove 20 from a set.
+Find the length of a set.
+Check whether 30 exists in a set.
+Print all elements using a for loop.
+Create a set containing duplicate values and observe the output.
+Find the maximum value in a set.
+Find the minimum value in a set.
+Find the sum of all elements in a set.
+
+Set Operations
+
+Find the union of two sets.
+Find the intersection of two sets.
+Find the difference between two sets.
+Find the symmetric difference.
+Check whether one set is a subset of another.
+Check whether two sets are disjoint.
+Convert a list into a set to remove duplicates.
+Find common elements between two student groups.
+
+Dictionary 
+
+Easy
+
+Create a dictionary containing name, age and city.
+Print the value of "name".
+Add a new key "course".
+Change the value of "age".
+Delete the "city" key.
+Find the number of items in a dictionary.
+Check whether "name" exists.
+Print all keys.
+Print all values.
+Print both keys and values using a for loop.
+
+Moderate
+
+Create a dictionary containing 5 students and their marks.
+Find the student with the highest mark.
+Find the student with the lowest mark.
+Calculate the total of all marks.
+Calculate the average mark.
+Count how many students scored above 50.
+Search for a student by name.
+Update a student's mark.
+Remove a student from the dictionary.
+Create a dictionary of products and prices and find products costing more than ₹500
