@@ -1,0 +1,164 @@
+1. User-Defined Functions
+
+1. Create a function to print "Hello Python".
+
+
+2. Create a function to print your name.
+
+
+3. Create a function to add two numbers.
+
+
+4. Create a function to subtract two numbers.
+
+
+5. Create a function to find the square of a number.
+
+
+6. Create a function to check whether a number is even or odd.
+
+
+7. Create a function to find the largest of two numbers.
+
+
+8. Create a function to calculate the area of a rectangle.
+
+
+9. Create a function to greet a person using their name.
+
+
+10. Create a function to find the sum of three numbers.
+
+
+
+2. Pre-Defined Functions
+
+1. Find the length of "Python".
+
+
+2. Find the largest number in [10, 20, 30, 40].
+
+
+3. Find the smallest number in [15, 5, 25, 10].
+
+
+4. Find the sum of [10, 20, 30].
+
+
+5. Sort [40, 10, 30, 20].
+
+
+6. Find the absolute value of -50.
+
+
+7. Find the type of 100.
+
+
+8. Convert "25" into an integer.
+
+
+9. Convert 100 into a string.
+
+
+10. Find the length of a list.
+
+
+
+3. Lambda
+
+1. Create a lambda function to find the square of a number.
+
+
+2. Create a lambda function to find the cube.
+
+
+3. Create a lambda function to add two numbers.
+
+
+4. Create a lambda function to multiply two numbers.
+
+
+5. Create a lambda function to check whether a number is even.
+
+
+6. Create a lambda function to subtract two numbers.
+
+
+7. Create a lambda function to find double of a number.
+
+
+8. Create a lambda function to find half of a number.
+
+
+9. Create a lambda function to find the length of a word.
+
+
+10. Create a lambda function to find the largest of two numbers.
+
+
+
+4. map()
+
+1. Double every number in [1, 2, 3, 4, 5].
+
+
+2. Find the square of [1, 2, 3, 4, 5].
+
+
+3. Add 10 to every number in [5, 10, 15, 20].
+
+
+4. Multiply every number by 5.
+
+
+5. Convert ["python", "java", "aws"] to uppercase.
+
+
+6. Find the length of each word in ["cat", "apple", "python"].
+
+
+7. Find the cube of [1, 2, 3, 4].
+
+
+8. Subtract 5 from every number.
+
+
+9. Double the marks [40, 50, 60, 70].
+
+
+10. Convert every name to uppercase.
+
+
+
+5. filter()
+
+1. Find even numbers from [1, 2, 3, 4, 5, 6].
+
+
+2. Find odd numbers.
+
+
+3. Find numbers greater than 10.
+
+
+4. Find numbers less than 20.
+
+
+5. Find numbers divisible by 5.
+
+
+6. Find positive numbers.
+
+
+7. Find negative numbers.
+
+
+8. Find marks greater than 50.
+
+
+9. Find names starting with "A".
+
+
+10. Find words with more than 5 characters.
+
+
