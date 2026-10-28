@@ -1,0 +1,30 @@
+#Exceptional handling
+# try:
+#     a=int(input("Enter a:"))
+#     print("Number:",a)
+# except:
+#     print("Not a number")
+
+#Zerodivisionerror
+# try:
+#     a=10/5
+# except ZeroDivisionError:
+#     print("Cant divisible")
+# else:
+#     print("It is divisible")
+#
+# try:
+#     a=int("Hii")
+# except ZeroDivisionError:
+#     print("Cant divisible")
+# except ValueError:
+#     print("Value Error")
+# else:
+#     print("Success")
+
+#raise
+# age=int(input("Enter age:"))
+# if age<18:
+#     raise ValueError("Cant register")
+# else:
+#     print("Registered")
