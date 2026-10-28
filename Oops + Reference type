@@ -1,0 +1,270 @@
+Oops
+# class+ object
+class student:
+    def fun1(self):
+        print("Hii")
+#object call
+s=student()
+s.fun1()
+
+#Inheritence
+#Single Inheritence
+class Trainer:
+    def fun1(self):
+        print("Trainer")
+class Gopika(Trainer):
+    def fun2(self):
+        print("Gopika inherit trainer")
+t=Trainer()
+g=Gopika()
+t.fun1()
+g.fun1()
+g.fun2()
+
+#Hiearichal Inheritence
+class Trainer:
+    def fun1(self):
+        print("Shiny")
+class Joy(Trainer):
+    def fun2(self):
+        print("Joy")
+class Gowsik(Trainer):
+    def fun3(self):
+        print("Gowsik")
+t=Trainer()
+j=Joy()
+g=Gowsik()
+t.fun1()
+j.fun1()
+j.fun2()
+g.fun1()
+g.fun3()
+
+#Mutilevel
+class theatre:
+    def fun1(self):
+        print("Need to see movie")
+class movie(theatre):
+    def fun2(self):
+        print("Jailer 2")
+class Sakthivel(movie):
+    def fun3(self):
+        print("Watch movie")
+t=theatre()
+m=movie()
+s=Sakthivel()
+t.fun1()
+m.fun1()
+m.fun2()
+s.fun1()
+s.fun2()
+s.fun3()
+
+#Hybrid
+class Shiny:
+    def fun1(self):
+        print("Helper")
+class joy(Shiny):
+    def fun2(self):
+        print("Joy")
+class gowsik(Shiny):
+    def fun3(self):
+        print("Gowsik")
+class fees(joy,gowsik):
+    def fun4(self):
+        print("Need to pay fees")
+s=Shiny()
+j=joy()
+g=gowsik()
+f=fees()
+s.fun1()
+j.fun1()
+j.fun2()
+g.fun1()
+g.fun3()
+f.fun1()
+f.fun3()
+f.fun2()
+f.fun4()
+
+#Multiple inheritence
+class python:
+    def fun1(self):
+        print("Python")
+class WD:
+    def fun2(self):
+        print("Web Designing")
+class student(python,WD):
+    def fun3(self):
+        print("Both")
+p=python()
+w=WD()
+s=student()
+p.fun1()
+w.fun2()
+s.fun1()
+s.fun2()
+s.fun3()
+
+#Polymorphism
+#overloading
+#without argument
+class calculator:
+    def fun(self,a=0,b=0,c=0):
+        print(a+b+c)
+c=calculator()
+c.fun(10)
+c.fun(10,20)
+c.fun(10,20,30)
+
+#with args
+class calculator:
+    def fun(self,*args):
+        print(sum(args))
+c=calculator()
+c.fun(10)
+c.fun(10,20)
+c.fun(10,20,30)
+c.fun(1,5,9,8,3,88)
+
+#Operator Overloading
+print(1+2)
+print('hi'+'bye')
+print([2,9,7]+[1,6,4])
+
+#Abstraction
+from abc import ABC, abstractmethod
+class Calculation(ABC):
+    @abstractmethod
+    def calculate(self, x, y):
+        pass
+# Define the subclasses with their own implementations.
+class Addition(Calculation):
+    def calculate(self, x, y):
+        return x + y
+class Subtraction(Calculation):
+    def calculate(self, x, y):
+        return x - y
+class Multiplication(Calculation):
+    def calculate(self, x, y):
+        return x * y
+class Division(Calculation):
+    def calculate(self, x, y):
+        return x / y
+a = Addition()
+s = Subtraction()
+m = Multiplication()
+d = Division()
+result1 = a.calculate(20, 30)
+result2 = s.calculate(20, 10)
+result3 = m.calculate(20, 40)
+result4 = d.calculate(20, 5)
+print("Addition: ", result1)
+print("Subtraction: ", result2)
+print("Multiplication: ", result3)
+print("Division: ", result4)
+
+#Encapsulation
+#public
+class Student:
+    def __init__(self):
+        self.name = "Joy"
+s1 = Student()
+print(s1.name)
+#
+# #Protected
+class age:
+    def __init__(self):
+        self._nono= 22
+a=age()
+print(a._nono)
+
+#Protected
+class Student:
+    def __init__(self):
+        self.name = "Shiny"
+class hii:
+    def fun1(self):
+        self._hii = 1233
+s1 = Student()
+print(s1.name)
+h = hii()
+h.fun1()
+print(h._hii)
+
+#Private
+class Password:
+    def __init__(self):
+        self.__password="Hi123"
+p=Password()
+print(p.__password)
+
+
+#Reference Type
+#iterator
+number=[10,20,30,40,50]
+it=iter(number)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+
+#for loop iterator
+nums = [10, 20, 30, 40]
+it = iter(nums)
+for n in it:
+    print(n)
+
+#while + Exceptional handling
+text = "Python"
+it = iter(text)
+while True:
+    try:
+        letter = next(it)
+        print(letter)
+    except StopIteration:
+        break
+
+#Closure
+def outer():
+    message="Hello"
+    def inner():
+        print(message)
+    return inner()
+ok=outer()
+ok
+
+#Parameter value
+def outer(x):
+    def inner(y):
+        print(x+y)
+    return inner
+add=outer(10)
+add(5)
+add(20)
+
+#Decorator
+def greet():
+    print("Hello")
+def display(fun):
+    fun()
+display(greet)
+
+#With decorator
+def decorator(fun):
+    def wrapper():
+        print("Before function")
+        fun()
+        print("After function")
+        fun()
+    return wrapper
+@decorator
+def hii():
+    print("Joy")
+hii()
+
+def joy():
+    '''He is a good boy'''
+print(joy.__doc__)
