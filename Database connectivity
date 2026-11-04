@@ -1,0 +1,63 @@
+#Python code
+
+import mysql.connector
+
+# Database Connectivity
+con = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="shiny",
+    database="StudentDB"
+)
+
+if con.is_connected():
+    print("Database Connected Successfully!")
+
+cursor = con.cursor()
+
+# Insert Student
+name = input("Enter Student Name: ")
+age = int(input("Enter Age: "))
+department = input("Enter Department: ")
+email = input("Enter Email: ")
+
+query = """
+INSERT INTO Students (name, age, department, email)
+VALUES (%s, %s, %s, %s)
+"""
+
+values = (name, age, department, email)
+
+cursor.execute(query, values)
+con.commit()
+
+print("Student Added Successfully!")
+
+# Display Students
+cursor.execute("SELECT * FROM Students")
+
+records = cursor.fetchall()
+
+print("\nStudent Records:")
+
+for row in records:
+    print(row)
+
+cursor.close()
+con.close()
+
+
+#Workbech
+
+CREATE DATABASE StudentDB;
+
+USE StudentDB;
+
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT,
+    department VARCHAR(50),
+    email VARCHAR(100)
+);
+select * from Students;
